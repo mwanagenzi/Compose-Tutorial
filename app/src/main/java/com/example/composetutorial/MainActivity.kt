@@ -87,15 +87,15 @@ fun MessageCard(message: Message) {
 
 }
 
-@Preview(name = "Light Mode")
+@Preview(name = "Dark Mode")
 @Preview(
     uiMode = Configuration.UI_MODE_NIGHT_YES,
-    showBackground = false,
+    showBackground = true,
     name = "Dark Mode"
 )
 @Composable
 fun PreviewConversation() {
-    ComposeTutorialTheme {
+    ComposeTutorialTheme{
         Surface {
 //            MessageCard(
 //                message = Message(
